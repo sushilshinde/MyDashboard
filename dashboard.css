@@ -1,0 +1,20 @@
+body{
+    background-color:#ecf0f1;	
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  top: 10%;
+  left:10%;  
+}
+
+.f-c{
+    display: flex;
+}
+
+.collection .collection-item.avatar {
+    min-height: 71px;
+    padding-left: 72px;
+    position: relative;
+}

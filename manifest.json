@@ -1,0 +1,24 @@
+{
+  "name": "MyDashBoard",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "MyDashBoard App",
+  "icons": {
+
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["bg.js"]
+  },
+  "browser_action": {
+    "default_title": "Dashboard",
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+}/*,
+  "content_scripts": {
+    "js": ["modifycontent.js"]
+  }*/
+
+}
