@@ -1,5 +1,6 @@
 body{
-    background-color:#ecf0f1;	
+    background-image: url("bg.JPG");
+    background-color: #cccccc;	
 }
 
 #toast-container {
@@ -17,4 +18,44 @@ body{
     min-height: 71px;
     padding-left: 72px;
     position: relative;
+}
+
+.apply-scrollbar{
+    padding: 0;max-height: 300px;overflow-y: auto;
+}
+
+.collapsible-body {
+    display: none;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0rem;
+    font-size: 15px;
+}
+
+.collapsible-header {
+    display: block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+       font-size: 17px;
+
+}
+
+.form-card{
+background: white;
+margin-top: 10px;
+}
+
+.t-div{
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 43px;
+    line-height: 46px;
 }
