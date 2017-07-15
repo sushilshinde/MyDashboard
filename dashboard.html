@@ -31,10 +31,10 @@
     <div class="row" style="margin-top:15px">
       <div class="col s4">
         <div class="row">
-          <form class="col s12">
+          <form class="col s12" id="target">
             <div class="row">
               <div class="input-field col s12">
-                <input id="disabled" type="text" class="validate">
+                <input id="disabled" type="text" id="todo">
                 <label for="disabled">Add Todo</label>
               </div>
             </div>
@@ -52,19 +52,15 @@
               <ul class="collection with-header">
 
                 <li class="collection-item">
-                  <div>Read OWASP<a href="#!" class="secondary-content"><i class="material-icons">delete</i></a></div>
+                  <div>Read OWASP<a href="#!" class="secondary-content"><i class="material-icons red-text" >delete</i></a>&nbsp;<a style="padding-right:15px" href="#!" class="secondary-content"><i class="material-icons">done</i></a></div>
                 </li>
                 <li class="collection-item">
-                  <div>Create RDS<a href="#!" class="secondary-content"><i class="material-icons">delete</i></a></div>
+                  <div>Create RDS<a href="#!" class="secondary-content"><i class="material-icons red-text" >delete</i></a>&nbsp;<a style="padding-right:15px" href="#!" class="secondary-content"><i class="material-icons">done</i></a></div>
                 </li>
                 <li class="collection-item">
-                  <div>Delete EC2<a href="#!" class="secondary-content"><i class="material-icons">delete</i></a></div>
+                  <div>Delete EC2<a href="#!" class="secondary-content"><i class="material-icons red-text" >delete</i></a>&nbsp;<a style="padding-right:15px" href="#!" class="secondary-content"><i class="material-icons">done</i></a></div>
                 </li>
               </ul>
-
-
-
-
 
             </div>
           </li>
@@ -142,7 +138,7 @@
 
 
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
   <script type="text/javascript" src="dashboard.js"></script>

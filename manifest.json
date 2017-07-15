@@ -3,6 +3,9 @@
   "manifest_version": 2,
   "version": "1.0",
   "description": "MyDashBoard App",
+   "permissions": [
+          "storage"
+  ],
   "icons": {
 
   },
